@@ -19,7 +19,7 @@ Demonstrated are how to...
 * Use AsyncCommand utility with PureMVC Framework
 * Registers the StartupCommand to prepare the View and ExampleAsyncMacroCommand to register several Asynchronous and Synchronous Commands
 * ApplicationMediator upon registration with Facade sends a notification for the MacroCommand to execute.
-* MacroCommands waits for the Asynchronous Command to complete before proceeding with the next command via a callback. For Synchrnous Commands it simply proceeds with the next.
+* MacroCommands waits for the Asynchronous Command to complete before proceeding with the next command via a callback. For Synchronous Commands it simply proceeds with the next.
 * Internet Explorer is not supported by this demo. In order to bring you a demo that shows only PureMVC and the DOM with no other interference or abstractions, we decided to support only on W3C compliant browsers.
 
 ## License

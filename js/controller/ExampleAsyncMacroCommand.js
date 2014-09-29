@@ -21,7 +21,7 @@ puremvc.define(
     },
     
     onComplete: function() {
-        var logMessage = "AsyncMacroCommand COMPLETE";
+        var logMessage = "ASYNC MACRO COMMAND COMPLETE";
         this.facade.sendNotification(view.OutputMediator.LOG_OUTPUT, logMessage);
     }
 },
